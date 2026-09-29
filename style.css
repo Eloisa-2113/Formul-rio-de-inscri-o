@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/2185403570/pt/foto/rock-band-performing-on-stage-guitarist-in-a-leather-jacket-and-a-bandana-raising-his-electric.jpg?s=612x612&w=0&k=20&c=WowjMIqt3OIy7QJonfuimRkZ90yKRSllAF3cjhO8Yik=');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    background-color: rgba(255, 241, 194, 0.945);
+    width: 800px;
+    margin: 190px auto;
+    padding: 40px;
+    border-radius: 15px;
+    
+    
+}
+label{
+    display: block;
+    margin-top: 15px
+}
+input[type = "text"],
+input[type = "number"]{
+    width: 90%;
+    padding: 10px;
+    margin-top: 6px;
+    border: none;}
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(179, 111, 9);
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+button:hover{
+    background-color: brown;
+}
+
+
+
